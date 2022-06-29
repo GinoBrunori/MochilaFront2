@@ -1,0 +1,54 @@
+/* --------------------------------- GLOBAL --------------------------------- */
+:root {
+    --amarilo: #fff421;
+    --oscuro: rgb(17, 17, 17);
+    --claro: rgb(224, 224, 224);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+/* --------------------------------- HEADER --------------------------------- */
+header {
+    background-color: var(--oscuro);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ---------------------------------- MAIN ---------------------------------- */
+main{
+    background-color: var(--claro);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.card img{
+    width: 50%;
+}
+.card ul{
+    list-style: none;
+}
+
+
+/* --------------------------------- FOOTER --------------------------------- */
+footer{
+    background-color: var(--oscuro);
+    color: var(--claro);
+    padding: 10px;
+    font-size: 0.8em;
+    text-align: center;
+}

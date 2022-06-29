@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 400px;
+}
+
+.title {
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.classLista {
+    border: 2px solid lime;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.bodyDark {
+    background-color: lightslategrey;
+}

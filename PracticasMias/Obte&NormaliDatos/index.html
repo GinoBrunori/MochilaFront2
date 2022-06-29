@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend> Datos </legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+        </fieldset>
+        <fieldset>
+            <label for="apellido"> Apellido </label>
+            <input type="text" name="apellido" id="apellido">
+        </fieldset>
+        <fieldset>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+        
+        <!-- RADIOS -->
+        <fieldset>
+            <legend>Elige un pais</legend>
+            <input type="radio" name="pais" id="arg" value="arg" checked> 
+            <label for="arg">Arg</label>
+
+            <input type="radio" name="pais" id="br" value="br" disabled> 
+            <label for="br">Brasil</label>
+
+            <input type="radio" name="pais" id="uy" value="uy"> 
+            <label for="uy">Uruguay</label>
+        </fieldset>
+            
+        <br>
+
+        <!-- CHECKBOXES -->
+        <fieldset>
+            <legend> Tareas</legend>
+            
+            <input type="checkbox" name="tareas" id="gym" value="gym"> 
+            <label for="tareas"> Gym </label>
+
+            <input type="checkbox" name="tareas" id="leer" value="leer">
+            <label for="leer"> Leer </label>
+
+            <input type="checkbox" name="tareas" id="estudiar" value="estudiar"> 
+            <label for="estudiar"> Estudiar</label>
+        </fieldset>
+
+        <!-- SELECT -->
+        <fieldset>
+            <legend>Comidas</legend>
+            <select name="comidas" id="comidas">
+            <option value="pollo"> Pollo </option>
+            <option value="atun"> Atun </option>
+            <option value="verduras"> Verduras </option>
+            </select>
+        </fieldset>
+
+        <button type="submit"> Enviar </button>
+    </form>
+<script src="app.js"></script>
+</body>
+</html>

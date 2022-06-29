@@ -1,0 +1,21 @@
+.seccion{
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    font-size: 2rem;
+    border: 2px solid black;
+}
+.deportes{
+    color: green;
+}
+.economicas{
+    color: red;
+}
+
+.grande{
+    font-size: 2rem;
+}

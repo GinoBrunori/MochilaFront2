@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-CatDog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1382d9614.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <section class="ofertas">
+            <p>Grandes ofertas en comederos</p>
+                <div class="lista">
+                <ul>
+                    <li>Español <i class="fa-solid fa-angle-down"></i></li>
+                    <li>ARG$ <i class="fa-solid fa-angle-down"></i></li>
+                </ul>
+                </div>
+        </section>
+        <nav>
+            <img src="img/Logo.png" alt="logo" class="logo">
+                <div class="lista">
+                    <ul>
+                        <li><i class="fa-solid fa-paw"></i> Categorias</li>
+                        <li><i class="fa-solid fa-paw"></i> Pets</li>
+                        <li><i class="fa-solid fa-paw"></i> Nosotros</li>
+                        <li><i class="fa-solid fa-paw"></i> Contactanos</li>
+                    </ul>
+                </div> 
+        </nav>
+    </header>
+    <main>
+        <!-- /* --- SECTION SLIDER --- */ -->
+        <section class="slider">
+            <div class="contenedor">
+                <h1 id="placer">¡Es un placer tenerte aquí!</h1>
+                <p class="descuentoComedero">¡Comederos en descuento!</p>
+                <button class="botonComedero">Comederos</button>
+            </div>
+        </section>
+        
+        <!-- /* --- SECTION PRODUCTOS DESTACADOS --- */ -->
+        <section class="productosDestacados">
+            <header>
+                <i class="fa-solid fa-paw patitaGrande "></i>
+                    <h1 class="h1productosDestacados">Productos Destacados</h1>
+                        <div class="lista2">
+                        <ul>
+                            <li>Comederos</li>
+                            <li> - </li>
+                            <li> Accesorios </li>
+                            <li> - </li>
+                            <li> Comida </li>
+                        </ul>
+                        </div>
+            </header>
+        </section>
+
+        
+        <!-- /* --- SECTION COMIDA --- */ -->
+        <section class="comidas">
+            <article class="articleSectionComida ">
+                <img src="img/churrasquito.png" alt="" class="imgSectionComida">
+                <div>
+                <p class="parrafoSectionComida">Juguete Churrasquito</p>
+                <p class="precioSectionComida">$150</p>
+                </div>
+            </article>
+
+            <article class="articleSectionComida">
+                <img src="img/comedero.png" alt="" class="imgSectionComida">
+                <div>
+                <p class="parrafoSectionComida">Comedero para perro</p>
+                <p class="precioSectionComida">$250</p>
+                </div>
+            </article>
+
+            <article class="articleSectionComida" >
+                <img src="img/Huesito.png" alt="" class="imgSectionComida">
+                <div>
+                <p class="parrafoSectionComida">Juguete Huesito</p>
+                <p class="precioSectionComida">$650</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- --- SECCION CONTACTO --  -->
+        <section class="sectionContacto"> 
+            <h2> Contactános </h2>
+                <label for=""></label>
+                <input type="text" placeholder="Nombre y Apellido">
+                <input type="email" placeholder="Ingresa tu correo electronico">
+                <input type="number" placeholder="Teléfono">
+                    <div class="botonera">
+                        <button class="buttonReset">Resetear</button>
+                        <button class="buttonEnviar">Enviar</button>
+                    </div>
+        </section>
+
+        <!-- --- SECTION SUSCRIBETE --- -->
+        <section class="sectionSub">
+            <div class="divSub">
+                <img src="img/enviar-correo 1.png" alt="" class="imgCorreo">
+                <h2>Suscríbete para más novedades</h2>
+            </div>
+
+            <div class="divEmail">
+                <label for=""></label>
+                <input type="email" placeholder="Ingresá tu correo electronico" class="inputCorreo">
+                <button class="botonSub"> Suscribirme</button>
+            </div>
+        </section>
+
+        <!-- --- FOOTER --- -->
+        <footer>
+            <section class="sectionDatos">
+                <article class="articleContacto">
+                    <div class="divImg">
+                        <img src="img/localidad.png" alt="" class="imgContacto">
+                        <img src="img/telefono.png" alt="" class="imgContacto">
+                        <img src="img/correo.png" alt="" class='imgContacto'>
+                    </div>
+                    <div class="divDatos">
+                        <div class="divDatos1">
+                            <h2>Localidad</h2>
+                            <p> Calle - Provincia</p>
+                        </div>
+                        <div class="divDatos2">
+                            <h2>Teléfono</h2>
+                            <p>Número de teléfono</p>
+                        </div>
+                        <div class="divDatos3">
+                            <h2>Correo Electrónico</h2>
+                            <p>Dirección de correo</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="articleLogo">
+                    <img src="img/Logo2.png" alt="">
+                </article>
+            </section>
+
+            <section class="sectionDerechos">
+                <p>Todos los derechos reservados Front End</p>
+            </section>
+        </footer>
+    </main>
+    
+    <script src="../dom.js"></script>
+</body>
+</html>

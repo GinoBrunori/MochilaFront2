@@ -1,0 +1,10 @@
+#paises {
+    display: inline-block;
+}
+
+fieldset {
+    margin-bottom: 5px;
+}
+/* label {
+    display: block;
+} */

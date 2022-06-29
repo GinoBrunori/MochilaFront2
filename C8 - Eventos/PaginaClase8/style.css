@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #d4d4d4e5;
+    margin-bottom: 25px;
+}
+
+/* h1 */
+.logo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    color: #f85050;
+    
+}
+.logo span {
+    color: #2F3A8F;
+}
+
+nav {
+    width: 300px;
+    padding-left: 5px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul a {
+    text-decoration: none;
+}
+nav ul a li {
+    font-weight: bold;
+    list-style: none;
+    color: black;
+}
+
+nav ul a li:hover {
+    color:crimson;
+}
+
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* div */
+main .div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #e9f7ff;
+    margin-bottom: 25px;
+    padding: 15px;
+    width: 400px;
+    border-radius: 25px;
+}
+
+/* div extranjero */
+main .div-extranjero {
+    background-color: #ffe0e0;
+}
+
+/* img */
+img {
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+/* h2 */
+main .div h2 {
+    text-align: center;
+}
+
+/* parrafo */
+main .div p {
+    width: 350px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* footer */
+footer {
+    background-color: #d4d4d4e5;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    padding: 15px;
+}
+
+footer ul li {
+    list-style: none;
+    font-weight: bold;
+}
+
+
+
+
+

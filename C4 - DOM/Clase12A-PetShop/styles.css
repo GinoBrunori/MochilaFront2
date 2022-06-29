@@ -1,0 +1,363 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header section.ofertas {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 7px;
+}
+
+header section.ofertas p {
+    margin-left: 90px;
+    font-size: 10px;
+}
+
+header section.ofertas div.lista ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+header section.ofertas div.lista ul li {
+    margin: 0px 10px;
+    font-size: 10px;
+}
+
+/* --- BARRA DE NAVEGACION --- */
+nav {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px ;
+}
+
+nav div.lista ul {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    /* justify-content: space-between;
+     align-items:  center;  */
+    font-size: 15px;
+}
+
+nav div.lista ul li {
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+ /* --- MAIN --- */
+
+ /* --- SECTION SLIDER --- */
+
+main section.slider {
+    background-image: url(img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+main section.slider .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+main section.slider #placer {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+main section.slider .contenedor .descuentoComedero {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+main section.slider .contenedor .botonComedero {
+    background-color: #F0A83E ;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #F0A83E;
+}
+
+/* --- SECTION PRODUCTOS DESTACADOS --- */
+
+section.productosDestacados header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.productosDestacados header .patitaGrande {
+    color: #F0A83E;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+section.productosDestacados header .h1productosDestacados {
+    color: #3C2313;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+section.productosDestacados header div.lista2 ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+section.productosDestacados header div.lista2 ul li {
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+/* --- SECTION COMIDA --- */
+
+section.comidas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    
+}
+
+section.comidas article.articleSectionComida {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 400px;
+    width: 350px;
+}
+
+
+section.comidas article.articleSectionComida div {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+section.comidas article.articleSectionComida div .parrafoSectionComida {
+    color: #3C2313;
+    font-weight: bold;
+}
+
+section.comidas article.articleSectionComida div .precioSectionComida {
+    color: #F0A83E;
+    font-weight: bold;
+}
+
+
+/* --- SECCION CONTACTO --- */
+
+section.sectionContacto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+  
+section.sectionContacto h2 {
+    color: #3C2313;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom:10px;
+
+}
+
+section.sectionContacto input {
+    border-radius: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    background-color: #3C2313;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 400px;
+    height: 20px;
+    padding:20px;
+    border: solid 1px #3C2313;
+}
+
+section.sectionContacto div.botonera {
+    margin-top: 30px;
+    display: flex;
+    
+}
+
+section.sectionContacto div.botonera button.buttonReset {
+    color: #ffff ;
+    background-color: #8A8787;
+    font-size: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    margin-right: 5px;
+    border: solid 1px #8A8787;
+}
+
+section.sectionContacto div.botonera button.buttonEnviar {
+    color: #ffff;
+    background-color: #F0A83E;
+    font-size: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    margin-left: 5px;
+    border: solid 1px #F0A83E;
+}
+
+/* --- SECTION SUSCRIBETE --- */
+
+section.sectionSub {
+    display: flex;
+    width: 100%;
+    background-color: #F0A83E;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-top: 70px;
+}
+
+section.sectionSub div.divSub {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+section.sectionSub div.divSub h2 {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+section.sectionSub div.divEmail {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+section.sectionSub div.divEmail .inputCorreo {
+    border-radius: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: white;
+    width: 300px;
+    height: 20px;
+    padding:20px;
+    margin-right: 15px;
+    position: relative;
+    top: 6px;
+    border: solid 1px white;
+}
+
+section.sectionSub div.divEmail .botonSub {
+    border-radius: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: white;
+    background-color: #3C2313;
+    padding:10px;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    top: 5px;
+    border: solid 1px #3C2313;
+}
+
+/* --- SECTION FOOTER --- */
+
+footer section.sectionDatos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313;
+}
+
+footer section.sectionDatos article.articleContacto {
+    display: flex;
+    /* align-items: center; */
+}
+
+footer section.sectionDatos article.articleLogo {
+    margin-right: 70px;
+}
+
+footer section.sectionDatos article.articleContacto div.divImg {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 25px 20px 40px;
+  
+}
+
+footer section.sectionDatos article.articleContacto div.divImg .imgContacto {
+    border-radius: 100px;
+    padding: 10px;
+    background-color: rgb(138, 135, 135);
+    color: white;
+    border: 3px solid #786960 ;
+    margin-bottom: 15px;
+ 
+}
+
+footer section.sectionDatos article.articleContacto div.divDatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+footer section.sectionDatos article.articleContacto div.divDatos  h2 {
+    color: white;
+    font-weight: bold;
+}
+
+footer section.sectionDatos article.articleContacto div.divDatos div p {
+    color: #8A8787;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+footer section.sectionDatos article.articleContacto div.divDatos .divDatos3 {
+    position: relative;
+    bottom: 20px;
+}
+
+footer section.sectionDerechos {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 8px;
+}
