@@ -10,11 +10,27 @@ body {
   background-color: rgb(219, 219, 219);
 }
 
+header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
 h1 {
   padding: .5em 1em;
-  background-color: white;
+  /* background-color: white; */
   border-bottom: 1px solid lightgrey;
   color: grey;
+}
+
+header .darkmode {
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
 }
 
 .contenedor {
@@ -56,12 +72,22 @@ poder resolver el ejercicio */
   background-color: rgb(39, 39, 39);
 } 
 
+.headerDark{
+  background-color: rgb(19, 19, 19);
+}
+
+.buttonDarkModeWhite {
+  background-color: white;
+  color: black;
+  width: 500px;
+}
+
 /* las modificaciones al titulo 'la familia de los felinos */
 .h1Oscuro { 
-  background-color: rgb(19, 19, 19);
   color: rgb(170, 170, 170);
   border-color: black;
 }
+
 
 
 /* las modificaciones a los items */

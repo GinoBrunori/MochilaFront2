@@ -9,13 +9,21 @@
 <body>
     
     <form action=""> 
-        <fieldset>    
-    <label for="pais"> Elige un pais </label>
-    <input type="radio" name="pais" id="pais" value="arg"> Argetina
-    <input type="radio" name="pais" id="pais" value="col"> Colombia
-    <input type="radio" name="pais" id="pais" value="vnz"> Venezuela
-    <input type="radio" name="pais" id="pais" value="uy"> Uruguay
-    <input type="radio" name="pais" id="pais" value="pay"> Paraguay
+    <!-- Nombre Y pass -->
+    <fieldset>
+        <legend> Datos  </legend>
+        <input type="text" name="" id="nombre" placeholder="nombre">
+        <input type="text" name="apellido" id="apellido" placeholder="apellido">
+        <input type="password" name="" id="pass" placeholder="contraseña">
+    </fieldset>
+
+    <fieldset>    
+    <legend for="pais"> Elige un pais </legend>
+    <input type="radio" name="pais"  value="arg"> Argetina
+    <input type="radio" name="pais"  value="col"> Colombia
+    <input type="radio" name="pais"  value="vnz"> Venezuela
+    <input type="radio" name="pais"  value="uy"> Uruguay
+    <input type="radio" name="pais"  value="pay"> Paraguay
     </fieldset>
 
     <fieldset>
@@ -24,8 +32,8 @@
     <input type="checkbox" name="comida" value="bifes"> Bifes
     <input type="checkbox" name="comida" value="pasta"> Pasta
     </fieldset>
-
     <button type="submit"> Enviar</button>
+    
     </form>
  <script src="app.js"></script>
 </body>

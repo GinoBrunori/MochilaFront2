@@ -8,8 +8,6 @@ window.addEventListener('load', function () {
     const inputRepPassword = document.querySelector('#inputPasswordRepetida');
 
 
-    
-
     /* -------------------------------------------------------------------------- */
     /*            FUNCIÓN 1: Escuchamos el submit y preparamos el envío           */
     /* -------------------------------------------------------------------------- */

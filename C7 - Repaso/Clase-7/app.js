@@ -17,6 +17,7 @@ nodosImg.forEach( (item,indice) => {
 
 
 const a = document.querySelectorAll("a");
+
 a.forEach((item, indice) => {
     item.setAttribute("href", listadoImagenes[indice] )
 });

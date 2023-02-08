@@ -33,21 +33,41 @@ inputEmail.addEventListener('input', function(){
 
     // actualizamos el estado en cada cambio del input
     estadoUsuario.email = inputEmail.value
+    
     if(validarEmail(estadoUsuario.email)){
         inputEmail.classList.add('border-ok')
     }else{
         inputEmail.classList.remove('border-ok')
     }
+
+    // Esto lo agregue yo (Gino) => le agrega un borde rojo cuando no esta validado
+    if(!validarEmail(estadoUsuario.email)){
+        inputEmail.classList.add('border-red')
+    }else{
+        inputEmail.classList.remove('border-red')
+    }
 });
 
+inputPassword.addEventListener("input", function(){
+    estadoUsuario.pass = inputPassword.value;
+    if (validarPassword(estadoUsuario.pass)){
+        inputPassword.classList.add('border-ok')
+    }else {
+        inputPassword.classList.remove('border-ok')
+    }
 
-
-
+    // Esto lo agregue yo (Gino )
+    if(!validarPassword(estadoUsuario.pass)){
+        inputPassword.classList.add('border-red')
+    }else{
+        inputPassword.classList.remove('border-red')
+    }
+})
 
 
 
 formulario.addEventListener('submit', function (evento) {
-    // prevenimos el default para manejar nososotro el comportamiento
+    // prevenimos el default para manejar nosotros el comportamiento
     evento.preventDefault();
 
     cajaErrores.innerHTML = 'iniciando sesión...'
@@ -64,7 +84,7 @@ formulario.addEventListener('submit', function (evento) {
     const terminosValidados = validarLegal(estadoUsuario.legal);
 
     
-    // simulamos conectar con el servidor 👇
+    // simulamos conectar con el servidor 👇 // mas adelante los hacemos con promesas
     setTimeout(function () {
 
         // simulamos la validacion dentro del servidor 👇
@@ -101,7 +121,6 @@ function listarErrores(listado) {
        */
     // ☝simplifico con un map 👇
     const contenido = listado.map(item => `<p><small>${item}</small></p>`).join('')
-
     return contenido;
 }
 

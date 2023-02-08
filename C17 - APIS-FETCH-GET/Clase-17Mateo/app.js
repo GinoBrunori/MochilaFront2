@@ -12,7 +12,7 @@ boton.addEventListener('click', function () {
             // aca ya contamos con la data de la respueta gracias al trabajo de .json()
             console.log(data);
             // consumimos las primeras 10 y mostramos dinamicamente
-            for(let i = 0; i< 10; i++){
+            for(let i = 0; i < 10; i++){
                 container.innerHTML += `<img src=${data.message[i]}>`
             }
         })

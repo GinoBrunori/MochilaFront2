@@ -61,7 +61,6 @@ window.addEventListener('load', function () {
             if(data.jwt){
                 // guardamos ese token que nos llega
                 localStorage.setItem('jwt', data.jwt)
-
                 location.replace('/mis-tareas.html')
             }
         })

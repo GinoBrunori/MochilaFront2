@@ -14,11 +14,8 @@ let creandoTexto = document.createTextNode("hola mundo");
 //* Adhiere dentro del DOM un elemento hijo a un elemento padre. Si el elemento padre ya existía en el documento, cambia su posición hacia el otro elemento padre indicado. Si no existe, lo creamos con el método 1.
 creandoButton.appendChild(creandoTexto);
 
-let main = document.querySelector('main');
+let main = document.querySelector("main");
 main.appendChild(creandoButton);
-
-
-
 
 //! -------------------------------------------------------------------------- */
 //!                             ATRIBUTOS DINAMICOS                            */
@@ -27,8 +24,8 @@ main.appendChild(creandoButton);
 //! .hasAtributte.
 //* Sirve para consultar si un elemento posee un atributo determinado.
 //* Recibe el nombre del atributo y devuelve true(si lo posee) o false(no lo posee)
-console.log(main.hasAttribute("class"))
-console.log(main.hasAttribute("src"))
+console.log(main.hasAttribute("class"));
+console.log(main.hasAttribute("src"));
 
 //! .getAttribute
 //* Sirve para obtener el valor de un atributo determinado.
@@ -41,10 +38,9 @@ console.log(main.getAttribute("class"));
 //* Sirve para remover un atributo con su valor.
 //* Recibe el nombre de un atributo, si no lo encuentra no hace nada.
 let img = document.querySelector("img");
-img.removeAttribute("alt"); 
+img.removeAttribute("alt");
 
 //! .setAttribute
 //* Sirve para agregar un atributo con su valor a un elemento
 //* Recibe el nombre del atributo y un valor para el mismo. No retorna nada
-img.setAttribute("src","./descarga.png");
-
+img.setAttribute("src", "./descarga.png");
